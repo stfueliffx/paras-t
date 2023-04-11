@@ -12,14 +12,108 @@
         <div class="card w-100">
             <form>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
+                    <li class="list-group-item">TEKLİF AÇIKLAMASI <input type="text" class="form-control"
+                                                                         id="exampleInputEmail1"
+                                                                         aria-describedby="emailHelp"></li>
+                    <li class="list-group-item">MÜŞTERİ <input type="text" class="form-control" id="exampleInputEmail1"
+                                                               aria-describedby="emailHelp"></li>
+                    <li class="list-group-item">DÜZENLEME TARİHİ <input type="date" class="form-control"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"></li>
+                    <li class="list-group-item">VADE TARİHİ
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-secondary ml-5">AYNI GÜN</button>
+                            <button type="button" class="btn btn-secondary">7 GÜN</button>
+                            <button type="button" class="btn btn-secondary">14 GÜN</button>
+                            <button type="button" class="btn btn-secondary">30 GÜN</button>
+                            <button type="button" class="btn btn-secondary">60 GÜN</button>
+                            <input type="date" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp">
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <button type="button" class="btn btn-outline-danger">DÖVİZ DEĞİŞTİR</button>
+                        <button type="button" class="btn btn-outline-danger">SİPARİŞ BİLGİSİ EKLE</button>
+                    </li>
+                    <li class="list-group-item">TEKLİF KOŞULLARI <input type="text" class="form-control"
+                                                                        id="exampleInputEmail1"
+                                                                        aria-describedby="emailHelp"
+                                                                        placeholder="Teklifin geçerli olduğu süre,ödeme şartları vb. bilgiler için bu alanı kullanabilirsiniz.">
+                    </li>
+                    <li class="list-group-item">
+                        <table class="table">
+                            <thead class="thead-dark">
+                            <tr>
+
+                                <th scope="col">HİZMET/ÜRÜN</th>
+                                <th scope="col">MİKTAR</th>
+                                <th scope="col">BİRİM</th>
+                                <th scope="col">BR. FİYAT</th>
+                                <th scope="col">VERGİ</th>
+                                <th scope="col">TOPLAM</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+
+                                <td><input type="text" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp"></td>
+                                <td><input type="text" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp" placeholder="1,00"></td>
+                                <td><select>
+                                    <option>adet</option>
+                                    <option>ay</option>
+                                    <option>çift</option>
+                                    <option>çuval</option>
+                                    <option>dakika</option>
+                                    <option>desilitre</option>
+                                    <option>desimetre</option>
+                                    <option>file</option>
+                                    <option>gram</option>
+                                    <option>gün</option>
+                                    <option>hafta</option>
+                                    <option>kamyon</option>
+                                    <option>kilogram</option>
+                                    <option>desimetre</option>
+                                    <option>koli</option>
+                                    <option>litre</option>
+                                    <option>metre</option>
+                                    <option>metrekare</option>
+                                    <option>metreküp</option>
+                                    <option>miligram</option>
+                                    <option>milimetre</option>
+                                    <option>paket</option>
+                                    <option>palet</option>
+                                    <option>poşet</option>
+                                    <option>saat</option>
+                                    <option>sandık</option>
+                                    <option>saniye</option>
+                                    <option>santimetre</option>
+                                    <option>ton</option>
+                                    <option>yıl</option>
+                                    <option>diğer</option>
+                                </select></td>
+                                <td><input type="text" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp" placeholder="0,00"></td>
+                                <td><select>
+                                    <option>%18</option>
+                                    <option>%8</option>
+                                    <option>%1</option>
+                                    <option>%0</option>
+                                </select></td>
+                                <td><input type="text" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp" placeholder="0,00"></td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </li>
                 </ul>
+                <button type="button" class="btn btn-warning">YENİ SATIR EKLE</button>
+                <BR><BR>
+                <button type="button" class="btn btn-success">KAYDET</button>
+                <button type="button" class="btn btn-danger">VAZGEÇ</button>
+
             </form>
         </div>
     </div>
